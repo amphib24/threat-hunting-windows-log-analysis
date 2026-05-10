@@ -7,11 +7,9 @@
    - Timeline Reconstruction
    - Attack vector analysis (RDP, Phishing, USB)
    - Threat hunting using log correlation and time-based analysis
+   - Domain reputatatio analysis
 
 # Investigations
 
  ### Initial Access
- &nbsp;&nbsp;&nbsp; This investigation involves three common initial access techniques used to compromise Windows systems. It includes analysis of RDP brute-force, phishing-based execution, and malicious USB usage using logging tools native to Windows.
-
- #### Technical Analysis
-<a href ="https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation">Analysis</a>
+Write ups for inital access <a href ="https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation">analysis</a>
