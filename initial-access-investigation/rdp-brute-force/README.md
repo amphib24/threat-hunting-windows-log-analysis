@@ -1,11 +1,6 @@
-## Log Analysis Windows Event Viewer - Initial Access Investigation
-
-## Introduction
-
-&nbsp;&nbsp;&nbsp; Initial access is the point of the attack where the attacker successfully gains their initial foothold into a system or network. There are various techniques an attacker can leverage to gain initial access. This report focuses on three specific techniques which are the abuse of exposed services, which in this case will be Windows Remote Desktop Protocol(RDP),  the utilization of phishing-based execution, and the malicious use of USBs.
-
 ## Case 1 – Initial Access via RDP 
- ## Scenario
+
+## Scenario
 &nbsp;&nbsp;&nbsp; I am working as SOC Level 1 Analyst for an MSSP. An IT admin exposed RDP on a production server for the purpose of being able to access the server from home on the weekends. The service was configured with weak credentials (Username: Administrator Password: Summer2005). This misconfiguration likely enabled the attacker exploiting the vulnerable service to gain initial access to the server. The investigation will involve analyzing security logs using Windows Event Viewer to identify the nature of the initial compromise.
 
 ## Potential Indicators of Attack (IOAs)
