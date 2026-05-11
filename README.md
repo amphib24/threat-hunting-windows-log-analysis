@@ -20,3 +20,9 @@
 <a href =  "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/phishing-based%20execution">Phishing Base Execution Write up</a>
 
 <a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/usb-malware-persistence">USB Malware Execution<a/>
+
+## Post Compromise
+Coming soon!
+
+## Persistence Mechanisms
+Coming soon!
