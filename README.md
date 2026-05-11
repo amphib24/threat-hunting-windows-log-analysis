@@ -15,14 +15,15 @@
  
 &nbsp;&nbsp;&nbsp; Initial access is the point of the attack where the attacker successfully gains their initial foothold into a system or network. There are various techniques an attacker can leverage to gain initial access. These reports report focuses on three specific techniques which are the abuse of exposed services, which in this case will be Windows Remote Desktop Protocol(RDP),  the utilization of phishing-based execution, and the malicious use of USBs.
 ### Technical Write ups
-<a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/rdp-brute-force">RDP Brute Force Writeup</a>
+<a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/rdp-brute-force">RDP Brute Force</a>
 
-<a href =  "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/phishing-based%20execution">Phishing Base Execution Write up</a>
+<a href =  "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/phishing-based%20execution">Phishing Based Execution</a>
 
 <a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/usb-malware-persistence">USB Malware Execution<a/>
 
 ## Post Compromise
-Coming soon!
+
+<a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/post-compromise-investigations/discovery-investigation">Post-Compromise Discovery</a>
 
 ## Persistence Mechanisms
 Coming soon!
