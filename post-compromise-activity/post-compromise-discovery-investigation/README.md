@@ -1,9 +1,16 @@
 # Post-Compromise Discovery Investigation 
 
 ##Sceanrio
-Host name: THM-DFIR-VM-2
-OS name: Microsoft windows sever 2019
-Server in AWS
+
+&nbsp;&nbsp&nbsp;I am working as SOC Level 1 Analyst for AWS. I have been tasked with investigating post-compromise activity resulting from the execution of a malicious file on a Windows Server. The investigation will be performed utilizing Windows Event Viewer and Sysmon logs to perform an analysis to determine the impact and scope of the incident. The malicious file (invoice.pdf.exe) was provided in the lab environment.
+
+## Potential Indicators of Attack (IOAs)
+
+   - Execution of suspicious files from user directories
+   - Creation of child processes from suspicious files
+   - Execution of reconnaissance commands
+   - Suspicious DNS queries
+   - Suspicious PowerShell activity
 
 ## Analysis
 
@@ -78,4 +85,4 @@ Server in AWS
 <img width="1150" height="858" alt="virus_total_recon" src="https://github.com/user-attachments/assets/36133c05-950d-4e3e-b4ec-fa465f664bd9" />
 
 ## Conclusion
-
+&nbsp;&nbsp;&nbsp;  The investigation of the invoice.pdf.exe process revealed multiple instances of post-compromise reconnaissance activity. The process executed commands to gather system information, hardware details, check for the presence of endpoint security solutions, and enumerate user files. The process also performed a DNS query to a suspicious domain, indicating potential C2 communication and a possibility of data exfiltration. The correlation of these activities represent typical post-compromise discovery behavior, and highlights the importance of monitoring process creation, command execution, and network activity.
