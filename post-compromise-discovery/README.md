@@ -1,4 +1,4 @@
-## Log Analysis Windows Event Viewer - Post Compromise Disocvery Investigations
+## Log Analysis Windows Event Viewer - Post Compromise Investigations
 
 ## Introduction
 
