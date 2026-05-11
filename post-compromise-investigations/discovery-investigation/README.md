@@ -50,11 +50,15 @@
 
 #### Analyst Observation 2: Endpoint Detection and Response Reconnaissance
    
-   -	Invoice.pdf.exe launched three child processes intended to check for the presence of popular EDR programs using the following commands:
-     *  cmd /c "tasklist /v | findstr csfalconservice.exe || echo No CrowdStrike EDR"
-     *  cmd /c "tasklist /v | findstr carbonsensor.exe || echo No Carbon Black EDR"
-     *  cmd /c "tasklist /v | findstr MsSense.exe || echo No MS Defender EDR"
-     These commands search for specific executables related endpoint security platforms, and if not found, to respond with “ No …EDR”. This behavior is consistent with post compromise reconnaissance techniques used to identify possible defensive software present on the host.
+-	Invoice.pdf.exe launched three child processes intended to check for the presence of popular EDR programs using the following commands:
+
+   1) cmd /c "tasklist /v | findstr csfalconservice.exe || echo No CrowdStrike EDR"
+
+   2) cmd /c "tasklist /v | findstr carbonsensor.exe || echo No Carbon Black EDR"
+
+   3) cmd /c "tasklist /v | findstr MsSense.exe || echo No MS Defender EDR"
+
+These commands search for specific executables related endpoint security platforms, and if not found, to respond with “ No …EDR”. This behavior is consistent with post compromise reconnaissance techniques used to identify possible defensive software present on the host.
 
 <img width="1196" height="527" alt="edr_recon1" src="https://github.com/user-attachments/assets/88c0fe14-e186-4b28-aae2-21539780b46a" />
 
