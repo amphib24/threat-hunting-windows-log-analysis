@@ -1,4 +1,4 @@
-# Investigating Discovery Techniques 
+# Post-Compromise Discovery Investigation 
 
 ##Sceanrio
 Host name: THM-DFIR-VM-2
@@ -35,7 +35,7 @@ Server in AWS
 
 #### Analyst Observation 1: Process Reconnaissance
  
-  - The process invoice.pdf.exe executed a child process running the command cmd /c “systeminfo | findstr os”, a command used to identify and display system information, specifically details related to the operating system. This activity is consistent with post-compromise reconnaissance techniques used to gather system information.  Following this, another child process was executed to gather information on the motherboard’s manufacture using the command ‘wmic baseboard get manufacture’, further indicating the collection of system hardware details for reconnaissance purposes.
+  - The process invoice.pdf.exe executed a child process running the command (cmd /c “systeminfo | findstr os”), a command used to identify and display system information, specifically details related to the operating system. This activity is consistent with post-compromise reconnaissance techniques used to gather system information.  Following this, another child process was executed to gather information on the motherboard’s manufacture using the command (wmic baseboard get manufacture), further indicating the collection of system hardware details for reconnaissance purposes.
 
 <img width="1205" height="797" alt="recon_2" src="https://github.com/user-attachments/assets/6a0a8c68-d55c-4182-8175-4cca363f901a" />
 
