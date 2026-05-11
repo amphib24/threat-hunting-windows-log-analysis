@@ -2,7 +2,7 @@
 
 ## Sceanrio
 
-&nbsp;&nbsp&nbsp;I am working as SOC Level 1 Analyst for AWS. I have been tasked with investigating post-compromise activity resulting from the execution of a malicious file on a Windows Server. The investigation will be performed utilizing Windows Event Viewer and Sysmon logs to perform an analysis to determine the impact and scope of the incident. The malicious file (invoice.pdf.exe) was provided in the lab environment.
+&nbsp;&nbsp;&nbsp;I am working as SOC Level 1 Analyst for AWS. I have been tasked with investigating post-compromise activity resulting from the execution of a malicious file on a Windows Server. The investigation will be performed utilizing Windows Event Viewer and Sysmon logs to perform an analysis to determine the impact and scope of the incident. The malicious file (invoice.pdf.exe) was provided in the lab environment.
 
 ## Potential Indicators of Attack (IOAs)
 
