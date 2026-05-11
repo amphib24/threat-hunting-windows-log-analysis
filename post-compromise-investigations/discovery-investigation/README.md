@@ -22,7 +22,7 @@
 
 #### Analyst Observation:
 
--	Initial investigation of the suspected process (invoice.pdf.exe) identifies it was executed through Windows Explorer.exe (PPID=5729) with a process Id of 4236 which will be used for further investigation into the impact and scope of post-compromise activity.
+-	Initial investigation of the suspected process (invoice.pdf.exe) identifies it was executed through Windows Explorer.exe (PPID=5729) with the process Id of 4236 which will be used for further investigation into the impact and scope of post-compromise activity.
 
 <img width="1202" height="773" alt="initial_filter_step1" src="https://github.com/user-attachments/assets/e7f0fb52-3d56-44f3-9c5a-589f72edc3ee" />
 
