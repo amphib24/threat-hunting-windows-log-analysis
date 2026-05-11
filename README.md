@@ -18,3 +18,5 @@
 <a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/rdp-brute-force">RDP Brute Force Writeup</a>
 
 <a href =  "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/phishing-based%20execution">Phishing Base Execution Write up</a>
+
+<a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/usb-malware-persistence">USB Malware Execution<a/>
