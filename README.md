@@ -24,6 +24,7 @@
 ## Post Compromise
 
 &nbsp;&nbsp;&nbsp; This section contains investigations into post-compromise activity on Windows hosts, focusing on discovery and reconnaissance techniques executed by malicious processes, detecting collection activity, and detecting tool transfers.
+
 <a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/post-compromise-investigations/discovery-investigation">Post-Compromise Discovery</a>
 
 ## Persistence Mechanisms
