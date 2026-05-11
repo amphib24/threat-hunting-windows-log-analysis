@@ -1,4 +1,4 @@
-## Log Analysis Windows Event Viewer - Initial Access Investigation
+## Log Analysis Windows Event Viewer - Initial Access Investigations
 
 ## Introduction
 
