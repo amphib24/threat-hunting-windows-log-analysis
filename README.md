@@ -7,7 +7,7 @@
    - Timeline Reconstruction
    - Attack vector analysis (RDP, Phishing, USB)
    - Threat hunting using log correlation and time-based analysis
-   - Domain reputatatio analysis
+   - Domain reputatation analysis
 
 # Investigations
 
