@@ -76,8 +76,10 @@ and EventData[Data[@Name=’Image’]=’C:\Users\Administrator\Desktop\Practice
 
 #### Analyst Observation 4: Staging Chrome Browser Data
    -	The process executed an additional xcopy command targeting browser user data:
-      1)	cmd /c xcopy "%%localappdata%%\Google\Chrome\User Data\Default" %%temp%%\staging_58f1\browser /i /y
-     This indicates an attempt to collect browser-stored data such as session data, cookies, and credentials. The data is staged in a temp directory, consistent with preparation for exfiltration.
+
+    	1)	cmd /c xcopy "%%localappdata%%\Google\Chrome\User Data\Default" %%temp%%\staging_58f1\browser /i /y
+
+    	This indicates an attempt to collect browser-stored data such as session data, cookies, and credentials. The data is staged in a temp directory, consistent with preparation for exfiltration.
 
 <img width="1191" height="502" alt="browser" src="https://github.com/user-attachments/assets/aaf323a0-c2f3-4ae1-b553-de30e67d1717" />
 
