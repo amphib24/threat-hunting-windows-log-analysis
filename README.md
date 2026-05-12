@@ -27,5 +27,7 @@
 
 <a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/post-compromise-investigations/discovery-investigation">Post-Compromise Discovery</a>
 
+<a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/blob/main/post-compromise-investigations/collection-and-exfil/README.md">Post-Compromise Collectection and Exfiltration</a>
+
 ## Persistence Mechanisms
 Coming soon!
