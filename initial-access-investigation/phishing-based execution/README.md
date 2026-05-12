@@ -1,4 +1,4 @@
-## Case 2 – Initial Access via Phishing 
+## Initial Access via Phishing 
 
 ## Scenario
 &nbsp;&nbsp;&nbsp; I am working as a SOC Level 1 Analyst for an MSSP. I have been tasked with investigating a phishing incident involving the download and execution of a malicious file.  The investigation will be performed utilizing Windows Event Viewer and Sysmon logs to perform an analysis of the event.
