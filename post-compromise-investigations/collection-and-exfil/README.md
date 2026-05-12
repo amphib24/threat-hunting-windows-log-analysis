@@ -75,18 +75,20 @@ and EventData[Data[@Name=’Image’]=’C:\Users\Administrator\Desktop\Practice
 <img width="1186" height="497" alt="pdf" src="https://github.com/user-attachments/assets/da83fdfd-71c8-47ed-bc42-ac8ef8a020da" />
 
 #### Analyst Observation 4: Staging Chrome Browser Data
-   -	The process executed an additional xcopy command targeting browser user data:
+-	The process executed an additional xcopy command targeting browser user data:
 
-    	1)	cmd /c xcopy "%%localappdata%%\Google\Chrome\User Data\Default" %%temp%%\staging_58f1\browser /i /y
+1) cmd /c xcopy "%%localappdata%%\Google\Chrome\User Data\Default" %%temp%%\staging_58f1\browser /i /y
 
-    	This indicates an attempt to collect browser-stored data such as session data, cookies, and credentials. The data is staged in a temp directory, consistent with preparation for exfiltration.
+This indicates an attempt to collect browser-stored data such as session data, cookies, and credentials. The data is staged in a temp directory, consistent with preparation for exfiltration.
 
 <img width="1191" height="502" alt="browser" src="https://github.com/user-attachments/assets/aaf323a0-c2f3-4ae1-b553-de30e67d1717" />
 
 #### Analyst Observation 5 :
-   -	The process then compressed the temp directory (staging_58f1) into a .zip file using the following command: 
-     1)	powershell -c "Compress-Archive -Force -Path $env:Temp\staging_58f1 -DestinationPath $env:Temp\staging_58f1.zip"
-     This behavior is consistent with compression techniques used to make the exfiltration of large amounts of data easier to complete. 
+- The process then compressed the temp directory (staging_58f1) into a .zip file using the following command: 
+ 
+1) powershell -c "Compress-Archive -Force -Path $env:Temp\staging_58f1 -DestinationPath $env:Temp\staging_58f1.zip"
+
+This behavior is consistent with compression techniques used to make the exfiltration of large amounts of data easier to complete. 
 
 <img width="1188" height="500" alt="compression" src="https://github.com/user-attachments/assets/5b1f0d19-4572-453e-8022-adbc066d84e3" />
 
@@ -96,8 +98,7 @@ and EventData[Data[@Name=’Image’]=’C:\Users\Administrator\Desktop\Practice
    -	*[EventData[Data[@Name=’Image’]=’C\:Users\Administrator\Desktop\Practice\Task 5\stealer.exe”
 
 #### Analyst Observation:
-   -	Further investigation identified DNS resolution and outbound network communication to collecteddata-storage-2025[.]s3[.]amazonaws[.]com(IP 16.182.40.97), which appears to be a Amazon S3 endpoint. The connection originated from stealer.exe (IP 10.66.144.110)
-      which occurred over HTTPS (port 443), which indicates encrypted communication was used for the connection. This activity, combined with prior evidence of staging and compression, is indicative of data exfiltration to a cloud storage site. 
+   -	Further investigation identified DNS resolution and outbound network communication to collecteddata-storage-2025[.]s3[.]amazonaws[.]com(IP 16.182.40.97), which appears to be a Amazon S3 endpoint. The connection originated from stealer.exe (IP 10.66.144.110) which occurred over HTTPS (port 443), indicating encrypted communication was used for the connection. This activity, combined with prior evidence of staging and compression, is indicative of data exfiltration to a cloud storage site. 
 
 <img width="1196" height="765" alt="DNS " src="https://github.com/user-attachments/assets/37febb18-a459-44dd-9a18-309903f351f3" />
 
