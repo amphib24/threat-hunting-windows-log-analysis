@@ -13,7 +13,7 @@
 
 ### Initial Access
  
-&nbsp;&nbsp;&nbsp; This section contains investigations into initial access activity on Windows Hosts. There are various techniques an attacker can leverage to gain initial access. These investigations focus on three specific techniques: the abuse of exposed services, which in this case will be Windows Remote Desktop Protocol (RDP), the utilization of phishing-based execution, and the malicious use of USBs.
+&nbsp;&nbsp;&nbsp; This section contains investigations into initial access activity on Windows hosts. There are various techniques an attacker can leverage to gain initial access. These investigations focus on three specific techniques: the abuse of exposed services, which in this case will be Windows Remote Desktop Protocol (RDP), the utilization of phishing-based execution, and the malicious use of USBs.
 
 #### Technical Write-Ups
 <a href = "https://github.com/amphib24/threat-hunting-windows-log-analysis/tree/main/initial-access-investigation/rdp-brute-force">RDP Brute Force</a>
